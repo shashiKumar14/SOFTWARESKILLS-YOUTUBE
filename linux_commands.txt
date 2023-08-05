@@ -1,0 +1,38 @@
+Linux commands
+
+1)To get the list of files and folders in a directory
+ls
+
+2)To create a directory
+mkdir folder_name
+
+3)To create a file inside a folder
+touch file_name
+
+4)To get the current working directory
+pwd
+
+5)To copy the files from one folder to another folder
+cp source_file_with_path destination_path
+
+6)To delete the file from folder
+rm file_name
+
+7)To move the file from one folder to another folder
+mv source_file_with_path destination_path
+
+8)To delete the folder forcefully
+rm -rf  folder_name
+
+9)To write/update inside a  file
+i)vi filename
+ii)click on i in keyboard for editing/updating/inserting
+iii)After updating click on esc button  in keyboard
+iv)click on :wq!   in keyboard to save file
+
+10)To see only the file without require editing
+cat file_name
+
+11)If you want go back from the current folder 
+cd ..
+ 
