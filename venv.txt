@@ -21,3 +21,9 @@ for windows:
   
 for ubuntu:
   source create_any_filename/bin/activate  ===>  .venv/bin/activate
+
+
+
+====================================================================
+To check the list of version of pip dependencies
+pip list --format freeze
