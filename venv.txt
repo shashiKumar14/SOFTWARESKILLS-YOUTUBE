@@ -1,0 +1,23 @@
+1)Create the virtual environment using conda
+=============================================
+conda create -n <your_env_name> python=3.7 -y
+
+activate after creating 
+=========================:
+conda activate <your_env_name>
+
+
+2)Create the virtual environment without using conda
+python3 -m venv create_any_filename  ===example===>python3 -m venv .venv 
+ or 
+python -m venv create_any_filename  ===example===>python -m venv .venv 
+
+
+activate after creating 
+=========================:
+
+for windows:
+  create_any_filename\Scripts\activate.bat  ===> .venv\Scripts\activate.bat
+  
+for ubuntu:
+  source create_any_filename/bin/activate  ===>  .venv/bin/activate
